@@ -1,7 +1,7 @@
 <!-- ================= HEADER ================= -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:7b2ff7&height=230&section=header&text=Rishii%20Kumar%20Singh&fontSize=40&fontColor=ffffff"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:7b2ff7&height=230&section=header&text=Nishant%20Varshney%20&fontSize=40&fontColor=ffffff"/>
 </p>
 
 <p align="center">
