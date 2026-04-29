@@ -8,9 +8,7 @@
   <b>AI / ML Engineer • Computer Vision • Builder</b>
 </p>
 
-<p align="center">
-  <code>pip install sherpa-dev && python -m s</code>
-</p>
+
 
 <!-- ================= SOCIAL BUTTONS ================= -->
 
