@@ -1,0 +1,102 @@
+<svg width="1280" height="400" viewBox="0 0 1280 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="36" y1="30" x2="1245" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#040914"/>
+      <stop offset="0.45" stop-color="#0A1D36"/>
+      <stop offset="1" stop-color="#2D1154"/>
+    </linearGradient>
+    <linearGradient id="cyanPurple" x1="76" y1="64" x2="1180" y2="336" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.48" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="nameFill" x1="82" y1="130" x2="690" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.62" stop-color="#E0F7FF"/>
+      <stop offset="1" stop-color="#BEE8FF"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1070 140) rotate(90) scale(270 350)">
+      <stop stop-color="#7C3AED" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(830 300) rotate(90) scale(190 300)">
+      <stop stop-color="#06B6D4" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#7DD3FC" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1280" height="400" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="28" fill="url(#grid)"/>
+  <rect width="1280" height="400" rx="28" fill="url(#glowA)"/>
+  <rect width="1280" height="400" rx="28" fill="url(#glowB)"/>
+  <rect x="18" y="18" width="1244" height="364" rx="21" stroke="url(#cyanPurple)" stroke-opacity="0.27"/>
+
+  <!-- Aesthetic Bottom Curve -->
+  <path d="M0 346C170 306 294 370 457 339C658 300 767 320 926 276C1086 232 1167 246 1280 224V400H0V346Z" fill="#040813" fill-opacity="0.68"/>
+  <path d="M0 345C170 305 294 369 457 338C658 299 767 319 926 275C1086 231 1167 245 1280 223" stroke="url(#cyanPurple)" stroke-opacity="0.72" stroke-width="1.5"/>
+
+  <!-- Left Accent Bar & Title -->
+  <rect x="62" y="58" width="7" height="257" rx="3.5" fill="url(#cyanPurple)" filter="url(#glow)"/>
+  <text x="94" y="83" fill="#67E8F9" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" letter-spacing="3.4">AGENTIC AI  /  RAG SYSTEMS  /  ML PIPELINES</text>
+  <text x="91" y="166" fill="url(#nameFill)" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="62" font-weight="800">Nishant Varshney</text>
+  <text x="94" y="214" fill="#D8EAFE" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600">AI Engineer &amp; Computer Engineering Student @ DTU</text>
+  <text x="94" y="252" fill="#9CB8D2" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15.5">LangGraph  |  Hybrid FAISS+BM25 RAG  |  Gemma &amp; Gemini  |  FastAPI</text>
+  <text x="94" y="293" fill="#D8B4FE" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="650">Top 4 Google Gemma Hackathon  •  Winner BITS Pilani Apogee  •  8.90 DTU CGPA</text>
+
+  <!-- Right Code Window Component -->
+  <g transform="translate(775 46)">
+    <rect width="435" height="264" rx="23" fill="#06101D" fill-opacity="0.82" stroke="#60A5FA" stroke-opacity="0.32"/>
+    <circle cx="34" cy="31" r="5" fill="#FB7185"/>
+    <circle cx="52" cy="31" r="5" fill="#FBBF24"/>
+    <circle cx="70" cy="31" r="5" fill="#34D399"/>
+    <text x="94" y="36" fill="#718CA5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12">nishant.system</text>
+    <path d="M22 56H413" stroke="#22374E"/>
+
+    <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13.5">
+      <text x="29" y="88" fill="#64748B">01</text>
+      <text x="62" y="88" fill="#C084FC">const</text>
+      <text x="112" y="88" fill="#E2E8F0"> engineer </text>
+      <text x="195" y="88" fill="#94A3B8">=</text>
+      <text x="212" y="88" fill="#67E8F9"> {</text>
+
+      <text x="29" y="119" fill="#64748B">02</text>
+      <text x="82" y="119" fill="#93C5FD">focus:</text>
+      <text x="142" y="119" fill="#A7F3D0"> "agentic workflows"</text>
+      <text x="330" y="119" fill="#94A3B8">,</text>
+
+      <text x="29" y="150" fill="#64748B">03</text>
+      <text x="82" y="150" fill="#93C5FD">specialty:</text>
+      <text x="175" y="150" fill="#FDE68A"> ["RAG", "LangGraph",</text>
+
+      <text x="29" y="181" fill="#64748B">04</text>
+      <text x="175" y="181" fill="#FDE68A">  "local inference"]</text>
+      <text x="345" y="181" fill="#94A3B8">,</text>
+
+      <text x="29" y="212" fill="#64748B">05</text>
+      <text x="82" y="212" fill="#93C5FD">status:</text>
+      <text x="150" y="212" fill="#A7F3D0"> "shipping robust AI"</text>
+
+      <text x="29" y="243" fill="#64748B">06</text>
+      <text x="62" y="243" fill="#67E8F9">}</text>
+      <rect x="79" y="229" width="8" height="18" rx="1" fill="#22D3EE" filter="url(#glow)"/>
+    </g>
+  </g>
+
+  <!-- Tag Pills -->
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="750">
+    <rect x="775" y="330" width="130" height="36" rx="18" fill="#0A2035" stroke="#22D3EE" stroke-opacity="0.75"/>
+    <text x="798" y="353" fill="#DDFBFF">LANGGRAPH</text>
+    <rect x="918" y="330" width="132" height="36" rx="18" fill="#0F223D" stroke="#60A5FA" stroke-opacity="0.75"/>
+    <text x="939" y="353" fill="#E4F0FF">HYBRID RAG</text>
+    <rect x="1062" y="330" width="148" height="36" rx="18" fill="#241842" stroke="#C084FC" stroke-opacity="0.8"/>
+    <text x="1082" y="353" fill="#F3E8FF">AGENTIC AI</text>
+  </g>
+</svg>
