@@ -94,11 +94,7 @@
 <h2 align="center">GitHub Activity</h2>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NishantV28&theme=tokyonight" alt="GitHub contribution summary" width="98%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NishantV28&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=2DE2E6&line=8B5CF6&point=2DE2E6&area=true&area_color=4C1D95" alt="GitHub contribution graph" width="98%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NishantV28&theme=tokyo-night&hide_border=true&bg_color=070D17&color=2DE2E6&line=8B5CF6&point=2DE2E6&area=true&area_color=4C1D95" alt="GitHub contribution graph" width="100%" />
 </p>
 
 <h2 align="center">Selected Achievements</h2>
